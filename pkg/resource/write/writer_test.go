@@ -2,8 +2,8 @@ package write
 
 import (
 	"context"
-	"github.com/RHsyseng/operator-utils/pkg/resource"
 	"github.com/stretchr/testify/assert"
+	"github.com/xiezhang7/operator-utils/pkg/resource"
 	corev1 "k8s.io/api/core/v1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"

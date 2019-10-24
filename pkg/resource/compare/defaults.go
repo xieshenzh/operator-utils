@@ -1,10 +1,10 @@
 package compare
 
 import (
-	"github.com/RHsyseng/operator-utils/pkg/resource"
 	oappsv1 "github.com/openshift/api/apps/v1"
 	buildv1 "github.com/openshift/api/build/v1"
 	routev1 "github.com/openshift/api/route/v1"
+	"github.com/xiezhang7/operator-utils/pkg/resource"
 	corev1 "k8s.io/api/core/v1"
 	rbacv1 "k8s.io/api/rbac/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

@@ -1,7 +1,7 @@
 package compare
 
 import (
-	"github.com/RHsyseng/operator-utils/pkg/resource"
+	"github.com/xiezhang7/operator-utils/pkg/resource"
 	"reflect"
 )
 

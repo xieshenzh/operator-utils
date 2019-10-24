@@ -1,10 +1,10 @@
 package test
 
 import (
-	"github.com/RHsyseng/operator-utils/pkg/resource/compare"
 	oappsv1 "github.com/openshift/api/apps/v1"
 	routev1 "github.com/openshift/api/route/v1"
 	"github.com/stretchr/testify/assert"
+	"github.com/xiezhang7/operator-utils/pkg/resource/compare"
 	corev1 "k8s.io/api/core/v1"
 	"reflect"
 	"testing"
