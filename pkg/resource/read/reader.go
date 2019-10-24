@@ -45,6 +45,7 @@ func (this *resourceReader) List(listObject runtime.Object) ([]resource.Kubernet
 	err := this.reader.List(context.TODO(), listObject, clientv1.InNamespace(this.namespace))
 	logger.Info("Retrieve Finish")
 	if err != nil {
+		logger.Error(err, "Retrieve Error!!!!!!!!!!")
 		return nil, err
 	}
 	itemsValue := reflect.Indirect(reflect.ValueOf(listObject)).FieldByName("Items")
